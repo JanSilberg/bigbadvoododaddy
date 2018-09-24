@@ -6,6 +6,6 @@ Jacob
 <br>
 Jan
 
-Følelser: Provokerende, Fjollet
+Følelser: Fjollet
 <br>
-Benspænd: Provokativ, Sex sells
+Benspænd: Deadly Dark, Manga
