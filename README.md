@@ -1,10 +1,10 @@
 # Big Bad Voodo Daddy
 
-Cathrine
+Cathrine - Band, Tour,
 <br>
-Jacob
+Jacob - Visuel design af musikerne
 <br>
-Jan
+Jan - Hjem, 
 
 Følelser: Fjollet
 <br>
