@@ -14,7 +14,9 @@ Benspænd: Deadly Dark, Manga
 Hjemmeside som er fjollet, med billeder af musikerne afbilledet som manga karakterer.
 
 Hjemmesiden skal være mørk, men stadig fjollet.
-
+<br>
+<br>
+<br>
 Indhold:
 
 Hjemmesiden skal være på engelsk.
