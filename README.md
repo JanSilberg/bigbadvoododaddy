@@ -1,10 +1,10 @@
 # Big Bad Voodo Daddy
 
-Cathrine - Band, Tour,
+<b>Cathrine</b> - Band, Tour,
 <br>
-Jacob - Visuel design af musikerne
+<b>Jacob</b> - Visuel design af musikerne
 <br>
-Jan - Hjem, 
+<b>Jan</b> - Hjem, 
 
 Følelser: Fjollet
 <br>
@@ -17,7 +17,7 @@ Hjemmesiden skal være mørk, men stadig fjollet.
 <br>
 <br>
 <br>
-Indhold:
+<h1><b>Indhold:</b></h1>
 
 Hjemmesiden skal være på engelsk.
 
