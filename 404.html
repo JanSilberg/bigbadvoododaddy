@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 Page not found</title>
+    <link href="style/Style.css" rel="stylesheet" type="text/css" />
+<!--Refererer til style.css , så CSS filen kan bruges på 404 siden også-->
+
+</head>
+
+
+<body class="pnfpage"> <!--Definerer denne body, som "pnfpage" til style.css reference-->
+    
+<h1>page does not work, go back.
+    <br>
+    CLICK LOGO
+</h1>
+
+
+<img class="logo" src="Images/logo.png" alt="Big bad voodo daddy logo" onclick="goBack()">
+
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script> 
+   
+
+</body>
+</html>
