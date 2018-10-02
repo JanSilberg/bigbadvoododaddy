@@ -1,28 +1,16 @@
 body{
     background-color:black;
-
+    margin: 0px;
     min-height: calc(100vh - 70px);
 }
 
-footer{
-    background-color: black;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    
-}
+
 
 h1{
     color: #FFF;
 }
 
-p{
-    color: #fff;
-    font-family: monospace;
-}
+
 
 ol{
     color: #fff;
