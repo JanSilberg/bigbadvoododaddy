@@ -4,7 +4,7 @@
 <br>
 <b>Jacob</b> - Visuelt design af musikerne, Om
 <br>
-<b>Jan</b> - Hjem, 
+<b>Jan</b> - Hjem, Contact
 
 Følelser: Fjollet
 <br>
