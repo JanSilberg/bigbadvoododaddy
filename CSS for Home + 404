@@ -1,0 +1,39 @@
+.pnfpage {
+    text-align: center;
+    margin-top: 20%
+}
+
+
+
+
+.Footer-home {grid-area: 'footer'}
+.menu {grid-area: menu;}
+.header {grid-area: 'header';}
+.main {grid-area: 'main';}
+.right {grid-area: right}
+
+
+.body-home {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'main main main right right'
+    'menu footer footer footer footer';
+    grid-gap: 10px;
+    background-color: gray;
+    
+
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+
+.menu {
+
+}
+
+
+
