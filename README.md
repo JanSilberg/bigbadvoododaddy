@@ -2,7 +2,7 @@
 
 <b>Cathrine</b> - Band, Tour,
 <br>
-<b>Jacob</b> - Visuelt design af musikerne
+<b>Jacob</b> - Visuelt design af musikerne, Om
 <br>
 <b>Jan</b> - Hjem, 
 
