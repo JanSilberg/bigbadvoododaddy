@@ -1,39 +1,54 @@
+/* CSS til 404.html */
 .pnfpage {
     text-align: center;
     margin-top: 20%
 }
+/* CSS til 404.html SLUT */
 
 
 
 
-.Footer-home {grid-area: 'footer'}
-.menu {grid-area: menu;}
-.header {grid-area: 'header';}
-.main {grid-area: 'main';}
-.right {grid-area: right}
 
+/* CSS til Home.html */
 
 .body-home {
     font-family: sans-serif;
     display: grid;
-    grid-template-areas:
-    'header header header header header'
-    'main main main right right'
-    'menu footer footer footer footer';
-    grid-gap: 10px;
     background-color: gray;
-    
-
 }
+
+
 
 .logo:hover {
     cursor: pointer;
 }
 
 
-.menu {
 
+.menu {
+    display: grid;
+    width: 960px;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    border: 2px dodgerblue solid;
 }
 
 
 
+.top-nav {
+    display: grid;
+    width: 960px;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    border: 2px dodgerblue solid;
+}
+
+
+
+.Footer-home {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-column-gap: 5px;
+    border: 2px dodgerblue solid;
+}
+
+/* CSS til Home.html SLUT */
