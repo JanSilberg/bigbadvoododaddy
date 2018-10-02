@@ -12,9 +12,16 @@
 /* CSS til Home.html */
 
 .body-home {
+    margin-left: 25%;
     font-family: sans-serif;
+    background-color: black;
+    color: white;
     display: grid;
-    background-color: gray;
+    width: 960px;
+    grid-template: 100px 100px 100px 100px 100px 50px / 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    border: dodgerblue solid;
+
 }
 
 
@@ -23,32 +30,44 @@
     cursor: pointer;
 }
 
+.logo {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    border: dodgerblue solid;
+}
 
 
 .menu {
     display: grid;
-    width: 960px;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    border: 2px dodgerblue solid;
+    grid-area: 1 / 2 / 3 / 3;
+    border: dodgerblue solid;
+
 }
 
 
 
 .top-nav {
     display: grid;
-    width: 960px;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    border: 2px dodgerblue solid;
+    grid-area: 3 / 2 / 4 / span 3;
+    border: dodgerblue solid;
 }
 
 
 
 .Footer-home {
     display: grid;
+    border: dodgerblue solid; 
     grid-template-columns: 50px 50px 50px 50px 50px;
     grid-template-rows: 50px;
     grid-column-gap: 5px;
-    border: 2px dodgerblue solid;
-}
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: auto;
+    justify-self: baseline
+} 
 
 /* CSS til Home.html SLUT */
