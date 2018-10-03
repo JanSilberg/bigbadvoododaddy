@@ -163,4 +163,9 @@
     z-index: 10;
 } 
 
+
+
+#copyright {
+    grid-row: 6;
+}
 /* CSS til Home.html SLUT */
