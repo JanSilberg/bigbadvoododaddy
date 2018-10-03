@@ -150,7 +150,6 @@
 .Footer-home {
     display: grid;
     position: relative;
-    border: dodgerblue solid; 
     background-color: #000;
     grid-template-columns: 50px 50px 50px 50px 50px;
     grid-column-gap: 5px;
