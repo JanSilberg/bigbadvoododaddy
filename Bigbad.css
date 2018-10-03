@@ -5,6 +5,128 @@ body{
 }
 
 
+.body-home {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    display: grid;
+    width: 1200px;
+    height: 920px;
+    grid-template: repeat( 5, 1fr) 60px 10px / 170px 1fr 1fr 1fr 1fr;
+    /* 7 rows / 5 columns */
+    grid-column-gap: 5px;
+    border: dodgerblue solid;
+
+}
+
+
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo {
+    display: grid;
+    margin-top: 5px;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    border: dodgerblue solid;
+}
+
+
+
+.menu {
+    justify-items: center;
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-area: 1 / 2 / 1 / span 5;
+    border: dodgerblue solid;
+}
+
+.menu button {
+    border: 1.5px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu button:hover {
+    background-color: #fff;
+    color: #000; 
+}
+
+
+
+.top-nav {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-area: 2 / 2 / span 2 / span 3;
+    border: dodgerblue solid;
+    grid-column-gap: 2em;
+
+}
+
+.left {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-width: 300px;
+}
+
+.main {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-width: 300px;
+}
+
+.right {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-width: 300px;
+}
+
+
+
+
+
+.mid-nav {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-area: 4 / 2 / span 2 / span 3;
+    border: dodgerblue solid;
+    grid-column-gap: 2em;
+
+}
+
+.left-mid {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-width: 300px;
+}
+
+.main-mid {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-width: 300px;
+}
+
+.right-mid {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-width: 300px;
+}
+
 
 h1{
     color: #FFF;
@@ -138,3 +260,4 @@ button:hover {
     color: #000; 
 
 }
+
