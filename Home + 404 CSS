@@ -1,11 +1,16 @@
 /* CSS til 404.html */
 .pnfpage {
     text-align: center;
-    margin-top: 20%
+    margin-top: 19%;
+    background-image: url(../Images/404backc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: black;
+ 
 }
 
 #logo-pnf {
-
     transition: all 1s ease;
   }
    
