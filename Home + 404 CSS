@@ -28,14 +28,20 @@
 /* CSS til Home.html */
 
 .body-home {
+    background-image: url(../Images/bb.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 1920px;
     margin-left: auto;
     margin-right: auto;
-    font-family: sans-serif;
+    font-family: monospace, sans-serif;
     background-color: black;
     color: white;
     display: grid;
     width: 1200px;
-    height: 1200px;
+    height: auto;
+    max-height: 2400px;
     grid-template: repeat( 5, 1fr) 60px 10px / 170px 1fr 1fr 1fr 1fr;
     /* 7 rows / 5 columns */
     grid-column-gap: 5px;
@@ -56,8 +62,20 @@
     grid-row-end: span 1;
     grid-column-start: 1;
     grid-column-end: span 1;
+    position: fixed;
     border: dodgerblue solid;
 }
+
+.logo {
+    transition: all 1s ease;
+  }
+   
+.logo:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+  }
+
+
 
 
 
@@ -87,6 +105,48 @@
 
 
 
+
+/* 
+#manga1 {
+    width: 300px;
+    top: 130px;
+    left: 70px;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#manga2 {
+    width: 250px;
+    top: 530px;
+    right: 70px;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#manga3 {
+    width: 300px;
+    top: 530px;
+    left: 70px;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#manga4 {
+    width: 250px;
+    top: 130px;
+    right: 70px;
+    z-index: 10;
+    position: fixed;
+} */
+
+
+
+
+
+
 .top-nav {
     display: grid;
     margin-right: auto;
@@ -95,7 +155,6 @@
     grid-area: 2 / 2 / auto / span 3;
     border: dodgerblue solid;
     grid-column-gap: 2em;
-
 }
 
 
@@ -106,14 +165,16 @@
     display: grid;
     margin-right: auto;
     margin-left: auto;
-    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr / 1fr auto;
     grid-area: 4 / 2 / auto / span 3;
     border: dodgerblue solid;
     grid-row-gap: 2em;
     grid-column-gap: 2em;
-
 }
 
+.main-mid {
+    grid-column: 2 / span 3;
+}
 
 
 
@@ -133,9 +194,4 @@
     z-index: 10;
 } 
 
-
-
-#copyright {
-    grid-row: 6;
-}
 /* CSS til Home.html SLUT */
