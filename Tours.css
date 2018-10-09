@@ -1,0 +1,129 @@
+body{
+    background-color:black;
+    margin: 0px;
+    min-height: calc(100vh - 70px);
+}
+
+
+h1{
+    color: #FFF;
+}
+
+
+ol{
+    color: #fff;
+    font-family: monospace;
+}
+
+
+ol li{
+    list-style-type: none;
+}
+
+.Tour_1 button{
+    
+    float: right;
+    margin-left: 10px;
+    border: 1.5px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: 0.3s;  
+}
+
+.Tours{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #000;
+    
+}
+
+.Tour_1 ol{
+    display: block;
+    float: left;
+}
+
+.Tour_2 button{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    border: 1.5px solid #fff; 
+    background-color: #000;
+    color: #fff; 
+    padding: 7px 14px; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Tour_2 ol{
+    display: block;
+    float: left;
+}
+
+.Tour_3 button{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    border: 1.5px solid #fff; 
+    background-color: #000;
+    color: #fff; 
+    padding: 7px 14px; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Tour_3 ol{
+    display: block;
+    float: left;
+}
+
+
+ .Tour_1 {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+.Tour_2 {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+.Tour_3 {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.Tour_4 button{
+    display: block; 
+    float: right;
+    margin-left: 10px;
+    border: 1.5px solid #fff;
+    background-color: #000; 
+    color: #fff;
+    padding: 7px 14px; 
+    cursor: pointer;
+    transition: o.3s;
+    
+}
+.Tour_4 ol{
+    display: block;
+    float: left 
+}
+
+.Tour_4 {
+    display: table; 
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+button:hover {
+    background-color: #fff;
+    color: #000; 
+
+}

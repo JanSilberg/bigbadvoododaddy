@@ -1,0 +1,71 @@
+.button {
+    border: 1.5px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000; 
+}
+
+html, body { 
+    margin: 0; height: 100%; color: #fff; font-family: monospace;
+} 
+.grid-container {  
+    display: grid;  
+    height: 100%;  
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.3fr 2.5fr 0.3fr;  
+    grid-gap: 1px 1px;  
+    grid-template-areas: 'Nav Nav Nav Nav' '. Container Container .' 'Footer Footer Footer Footer';
+}
+.Nav { 
+    grid-area: Nav; 
+}
+
+.Container {  display: grid;  grid-area: Container; grid-gap: 1px 1px;}
+
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Nav li {
+    float: left;
+}
+
+.Nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.Footer { 
+    grid-area: Footer;
+    bottom: 0;
+    overflow: hidden;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
