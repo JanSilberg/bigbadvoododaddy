@@ -1,8 +1,8 @@
 # Big Bad Voodo Daddy
 
-<b>Cathrine</b> - Band, Tour,
+<b>Cathrine</b> - Band (om bandet), Tour,
 <br>
-<b>Jacob</b> - Visuelt design af musikerne, Om
+<b>Jacob</b> - Visuelt design af musikerne, About (Musikerne)
 <br>
 <b>Jan</b> - Hjem, 404, Contact
 
