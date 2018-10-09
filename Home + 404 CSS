@@ -1,11 +1,16 @@
 /* CSS til 404.html */
 .pnfpage {
     text-align: center;
-    margin-top: 20%
+    margin-top: 19%;
+    background-image: url(../Images/404backc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: black;
+ 
 }
 
 #logo-pnf {
-
     transition: all 1s ease;
   }
    
@@ -23,14 +28,20 @@
 /* CSS til Home.html */
 
 .body-home {
+    background-image: url(../Images/bb.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 1920px;
     margin-left: auto;
     margin-right: auto;
-    font-family: sans-serif;
+    font-family: monospace, sans-serif;
     background-color: black;
     color: white;
     display: grid;
     width: 1200px;
-    height: 920px;
+    height: auto;
+    max-height: 2400px;
     grid-template: repeat( 5, 1fr) 60px 10px / 170px 1fr 1fr 1fr 1fr;
     /* 7 rows / 5 columns */
     grid-column-gap: 5px;
@@ -51,8 +62,20 @@
     grid-row-end: span 1;
     grid-column-start: 1;
     grid-column-end: span 1;
+    position: fixed;
     border: dodgerblue solid;
 }
+
+.logo {
+    transition: all 1s ease;
+  }
+   
+.logo:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+  }
+
+
 
 
 
@@ -82,33 +105,56 @@
 
 
 
+
+/* 
+#manga1 {
+    width: 300px;
+    top: 130px;
+    left: 70px;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#manga2 {
+    width: 250px;
+    top: 530px;
+    right: 70px;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#manga3 {
+    width: 300px;
+    top: 530px;
+    left: 70px;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#manga4 {
+    width: 250px;
+    top: 130px;
+    right: 70px;
+    z-index: 10;
+    position: fixed;
+} */
+
+
+
+
+
+
 .top-nav {
     display: grid;
     margin-right: auto;
     margin-left: auto;
     grid-template: 1fr / 1fr 1fr 1fr;
-    grid-area: 2 / 2 / span 2 / span 3;
+    grid-area: 2 / 2 / auto / span 3;
     border: dodgerblue solid;
     grid-column-gap: 2em;
-
-}
-
-.left {
-    overflow: scroll;
-    overflow-x: hidden;
-    min-width: 300px;
-}
-
-.main {
-    overflow: scroll;
-    overflow-x: hidden;
-    min-width: 300px;
-}
-
-.right {
-    overflow: scroll;
-    overflow-x: hidden;
-    min-width: 300px;
 }
 
 
@@ -119,31 +165,16 @@
     display: grid;
     margin-right: auto;
     margin-left: auto;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    grid-area: 4 / 2 / span 2 / span 3;
+    grid-template: 1fr / 1fr auto;
+    grid-area: 4 / 2 / auto / span 3;
     border: dodgerblue solid;
+    grid-row-gap: 2em;
     grid-column-gap: 2em;
-
-}
-
-.left-mid {
-    overflow: scroll;
-    overflow-x: hidden;
-    min-width: 300px;
 }
 
 .main-mid {
-    overflow: scroll;
-    overflow-x: hidden;
-    min-width: 300px;
+    grid-column: 2 / span 3;
 }
-
-.right-mid {
-    overflow: scroll;
-    overflow-x: hidden;
-    min-width: 300px;
-}
-
 
 
 
@@ -153,7 +184,7 @@
     position: relative;
     border: dodgerblue solid; 
     background-color: #000;
-    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
     grid-column-gap: 5px;
     grid-row-start: 6;
     grid-row-end: 6;
