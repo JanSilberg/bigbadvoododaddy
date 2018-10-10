@@ -61,4 +61,7 @@ body{
     border: dodgerblue solid;
     grid-column-gap: 2em;
 
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
 }
