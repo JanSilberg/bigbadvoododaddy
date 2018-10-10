@@ -60,6 +60,7 @@ body{
     grid-area: 2 / 2 / span 2 / span 3;
     border: dodgerblue solid;
     grid-column-gap: 2em;
+}
 
 a:link, a:visited{
     color: white;
