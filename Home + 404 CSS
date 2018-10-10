@@ -28,23 +28,23 @@
 /* CSS til Home.html */
 
 .body-home {
-    background-image: url(../Images/bb.png);
+    /* background-image: url(../Images/bb.png);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    background-size: 1920px;
+    background-size: 1920px; */
     margin-left: auto;
     margin-right: auto;
     font-family: monospace, sans-serif;
     background-color: black;
-    color: white;
+    color: grey;
     display: grid;
-    width: 1200px;
+    width: 100%;
     height: auto;
-    max-height: 2400px;
-    grid-template: repeat( 5, 1fr) 60px 10px / 170px 1fr 1fr 1fr 1fr;
-    /* 7 rows / 5 columns */
-    grid-column-gap: 5px;
+    max-height: 2650px;
+    grid-template: repeat( 10, 1fr) 60px 10px / 170px repeat(11, 1fr);
+    /* 12 rows / 12 columns */
+    grid-row-gap: 3em;
     border: dodgerblue solid;
 
 }
@@ -84,7 +84,7 @@
     display: grid;
     margin-top: 5px;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-area: 1 / 2 / 1 / span 5;
+    grid-area: 1 / 3 / 1 / span 8;
     border: dodgerblue solid;
 }
 
@@ -106,41 +106,44 @@
 
 
 
-/* 
-#manga1 {
+
+/* #manga1 {
     width: 300px;
-    top: 130px;
-    left: 70px;
+    grid-area: 3 / 1 / span 3 / 1;
     z-index: 10;
-    position: fixed;
-}
+} */
 
 
-#manga2 {
-    width: 250px;
-    top: 530px;
-    right: 70px;
-    z-index: 10;
-    position: fixed;
-}
+/* #manga2 {
+    width: 230px;
+    height: 350px;
+    grid-area: 6 / 10 / span 7 / span 11;
+} */
 
 
 #manga3 {
-    width: 300px;
-    top: 530px;
-    left: 70px;
-    z-index: 10;
-    position: fixed;
+    width: 250px;
+    grid-area: 3 / 2 / span 3 / span 11;
+    border: dodgerblue solid;
 }
 
 
-#manga4 {
-    width: 250px;
-    top: 130px;
-    right: 70px;
-    z-index: 10;
-    position: fixed;
+/* #manga4 {
+    width: 230px;
+    grid-area: 2 / 10 / span 4 / span 11;
 } */
+
+
+
+
+
+
+#bbvd {
+    width: 500px;
+    grid-area: 2 / 5 / 2 / span 4;
+    border: dodgerblue solid;
+    justify-self: center;
+}
 
 
 
@@ -149,49 +152,39 @@
 
 .top-nav {
     display: grid;
-    margin-right: auto;
-    margin-left: auto;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    grid-area: 2 / 2 / auto / span 3;
+    text-align: center;
+    grid-template: 1fr 1fr 1fr / auto;
+    grid-area: 3 / 3 / auto / span 8;
     border: dodgerblue solid;
-    grid-column-gap: 2em;
+    
 }
 
 
 
 
-
+/* 
 .mid-nav {
     display: grid;
-    margin-right: auto;
-    margin-left: auto;
-    grid-template: 1fr / 1fr auto;
-    grid-area: 4 / 2 / auto / span 3;
+    text-align: center;
+    grid-template: 1fr 1fr / auto;
+    grid-area: 9 / 3 / auto / span 8;
     border: dodgerblue solid;
-    grid-row-gap: 2em;
-    grid-column-gap: 2em;
-}
+} */
 
-.main-mid {
-    grid-column: 2 / span 3;
-}
 
 
 
 
 .Footer-home {
     display: grid;
-    position: relative;
     border: dodgerblue solid; 
-    background-color: #000;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px;
-    grid-column-gap: 5px;
-    grid-row-start: 6;
-    grid-row-end: 6;
-    grid-column-start: 3;
-    grid-column-end: auto;
-    margin-left: 85px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-row-gap: 5px;
+    grid-area: 1 / 11 / span 2 / span 11;
     z-index: 10;
+    top: 190px;
+
+    text-align: center;
 } 
 
 /* CSS til Home.html SLUT */
