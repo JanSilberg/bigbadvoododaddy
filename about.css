@@ -1,74 +1,9 @@
 body {
     background-color: black;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-p {
-    display: inline;
+.aboutgenre {
+    text-align: center;
+   
 }
-
-.body-home {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-    color: white;
-    display: grid;
-    width: 1200px;
-    height: 920px;
-    grid-template: repeat( 5, 1fr) 60px 10px / 170px 1fr 1fr 1fr 1fr;
-    /* 7 rows / 5 columns */
-    grid-column-gap: 5px;
-
-}
-
-.menu {
-    justify-items: center;
-    display: grid;
-    margin-top: 5px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-area: 1 / 2 / 1 / span 5;
-}
-
-.menu button {
-    border: 1.5px solid #fff;
-    background-color: #000;
-    color: #fff;
-    padding: 7px 14px;
-    cursor: pointer;
-    transition: 0.3s;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.menu button:hover {
-    background-color: #fff;
-    color: #000; 
-}
-
-
-
-.top-nav {
-    display: grid;
-    margin-right: auto;
-    margin-left: auto;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    grid-area: 2 / 2 / span 2 / span 3;
-    grid-column-gap: 2em;
-
-
-
-
-.Footer-home {
-    display: grid;
-    position: relative;
-    background-color: #000;
-    grid-template-columns: 50px 50px 50px 50px 50px;
-    grid-column-gap: 5px;
-    grid-row-start: 6;
-    grid-row-end: 6;
-    grid-column-start: 3;
-    grid-column-end: auto;
-    margin-left: 85px;
-    z-index: 10;
-} 
