@@ -1,10 +1,10 @@
 # Big Bad Voodo Daddy
 
-<b>Cathrine</b> - Band (om bandet), Tour,
+<b>Cathrine</b> - About, Tour
 <br>
-<b>Jacob</b> - Visuelt design af musikerne, About (Musikerne)
+<b>Jacob</b> - Visuelt design af musikerne, Band
 <br>
-<b>Jan</b> - Hjem, 404, Contact
+<b>Jan</b> - Forside & 404 (page not found)
 
 Følelser: Fjollet
 <br>
@@ -22,7 +22,7 @@ Hjemmesiden skal være mørk, men stadig fjollet.
 Hjemmesiden skal være på engelsk.
 
 
-Navigation - Hjem, News, Tour, Band, Contact
+Navigation - Home, about, Tour, Band
 
 
 Nogen af billederne af musikerne, som manga. - Nogen som normale billeder.
