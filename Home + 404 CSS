@@ -1,7 +1,11 @@
 /* CSS til 404.html */
+/* CSS til 404.html */
+/* CSS til 404.html */
+
+/* Baggrundsbillede PNF ////////////////////// */
+
 .pnfpage {
-    text-align: center;
-    margin-top: 19%;
+
     background-image: url(../Images/404backc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,8 +14,24 @@
  
 }
 
+/* Baggrundsbillede PNF SLUT ///////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* PNF VIDEO ///////////////////////////////// */
+
+#pnf-video {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 20.3%
+}
+
+/* PNF VIDEO SLUT ////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* PNF logo ////////////////////////////////// */
+
 #logo-pnf {
-    transition: all 1s ease;
+    transition: all 1s ease;    
   }
    
 #logo-pnf:hover {
@@ -19,6 +39,10 @@
     transform: rotate(360deg);
   }
 
+/* PNF logo SLUT ///////////////////////////// */
+
+/* CSS til 404.html SLUT */
+/* CSS til 404.html SLUT */
 /* CSS til 404.html SLUT */
 
 
@@ -26,13 +50,13 @@
 
 
 /* CSS til Home.html */
+/* CSS til Home.html */
+/* CSS til Home.html */
+
+
+/* BODY ////////////////////////////////////// */
 
 .body-home {
-    /* background-image: url(../Images/bb.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    background-size: 1920px; */
     margin-left: auto;
     margin-right: auto;
     font-family: monospace, sans-serif;
@@ -48,10 +72,14 @@
 
 }
 
-
+/* BODY SLUT ///////////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* LOGO ////////////////////////////////////// */
 
 .logo:hover {
     cursor: pointer;
+    transform: rotate(360deg);
 }
 
 .logo {
@@ -67,121 +95,144 @@
 .logo {
     transition: all 1s ease;
   }
-   
-.logo:hover {
-    cursor: pointer;
-    transform: rotate(360deg);
-  }
 
+/* LOGO SLUT ///////////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* MENU ////////////////////////////////////// */
 
-
-
-
-.menu {
-    justify-items: center;
-    display: grid;
-    margin-top: 5px;
-    grid-template-columns: 25% 25% 25% 25%;
+nav#menu {
     grid-area: 1 / 3 / 1 / span 8;
 }
 
-.menu button {
-    background-color: #000;
-    color: #fff;
-    padding: 7px 14px;
-    cursor: pointer;
-    transition: 0.3s;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+nav#menu ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-top: 2rem;
 }
 
-.menu button:hover {
-    background-color: #fff;
-    color: #000; 
+nav#menu ul li a {
+    padding: 1rem;
+    border: 1px solid grey;
+    text-decoration: none;
+    display: block;
+    margin: 0 1rem;
+    max-width: 100px;
+    text-align: center;
+    background-color: grey;
+    color: black;
 }
 
+nav#menu ul li a:hover {
+    background-color: grey;
+    color:white;
+    border-color: white;    
+}
 
-
-
-
-/* #manga1 {
-    width: 300px;
-    grid-area: 3 / 1 / span 3 / 1;
-    z-index: 10;
-} */
-
-
-/* #manga2 {
-    width: 230px;
-    height: 350px;
-    grid-area: 6 / 10 / span 7 / span 11;
-} */
-
+/* MENU SLUT ///////////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* MANGA BILLEDER //////////////////////////// */
 
 #manga3 {
-    width: 250px;
-    grid-area: 3 / 2 / span 3 / span 11;
+    width: 165px;
+    grid-area: 2 / 3 / span 3 / span 11;
+    margin-top: 35px;
 }
 
+#manga1 {
+    width: 250px;
+    grid-area: 2 / 9 / span 3 / span 11;
+}
 
-/* #manga4 {
-    width: 230px;
-    grid-area: 2 / 10 / span 4 / span 11;
-} */
-
-
-
-
-
+/* MANGA BILLEDER SLUT /////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* MIDT BILLEDE ////////////////////////////// */
 
 #bbvd {
     width: 500px;
     grid-area: 2 / 5 / 2 / span 4;
     justify-self: center;
+    z-index: 1;
 }
 
+#bbvd1 {
+    grid-area: 2 / 5 / 2 / span 4;
+    z-index: 10;
+    justify-self: center;
+    margin-top: -5px;
+    font-size: 2.5em;
+    color: black;
+}
 
+/* MIDT BILLEDE SLUT ///////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* TOP NAV /////////////////////////////////// */
 
-
+#bbvd2 {
+    grid-area: 3 / 4 / 3 / span 6;
+    z-index: 10;
+    justify-self: center;
+    font-size: 4em;    
+    font-weight: 400;
+    color: white;  
+}
 
 
 .top-nav {
-    display: grid;
     text-align: center;
-    grid-template: 1fr 1fr 1fr / auto;
     grid-area: 3 / 3 / auto / span 8;
-    
+    margin-top: 30px;
 }
 
 
+.top-nav#overskrift1 {
+    margin-top: 70px;
+}
 
+.main {
+    margin-top: 100px;
+}
 
-/* 
-.mid-nav {
-    display: grid;
-    text-align: center;
-    grid-template: 1fr 1fr / auto;
-    grid-area: 9 / 3 / auto / span 8;
-} */
+.right {
+    margin-top: 100px;
+}
 
+/* TOP NAV SLUT ////////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* Social Media ////////////////////////////// */
 
-
-
-
-.Footer-home {
+.some-home {
     display: grid;
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
     grid-row-gap: 5px;
     grid-area: 1 / 11 / span 2 / span 11;
     z-index: 10;
     top: 190px;
-
     text-align: center;
 } 
 
-
+/* Social Media SLUT ///////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* Kontakt os //////////////////////////////// */
 
 #contact-us {
     grid-area: 4 / 2 / 4 / span 3;
 }
 
+/* Kontakt os SLUT /////////////////////////// */
+
+
+
+
+/* CSS til Home.html SLUT */
+/* CSS til Home.html SLUT */
 /* CSS til Home.html SLUT */
